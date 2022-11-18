@@ -14,7 +14,8 @@
         <StackPanel VerticalAlignment="Center">
             <Button Click="Button_Click" Width="100px" HorizontalAlignment="Center" Content="Click Me" Margin="10"/>
             <TextBlock Name="TextBlock" HorizontalAlignment="Center" Text="TextBlock" Margin="10"/>
-            <oxy:PlotView Model="{Binding MyModel}" Height="203"/>
+            <oxy:PlotView Model="{Binding MyModel}" Height="184"/>
+            <oxy:PlotView Model="{Binding TwoColorModel}" Height="167"/>
         </StackPanel>
     </Grid>
 </Window>
